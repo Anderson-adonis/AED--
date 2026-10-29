@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="johan.ArbolABB">
+  <grid id="abbRoot" binding="rootPanel" layout-manager="GridBagLayout" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="8" vgap="6">
+    <margin top="12" left="12" bottom="12" right="12"/>
+    <constraints><xy x="20" y="20" width="1000" height="760"/></constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="abbTitle" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints><grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false" weightx="1.0" weighty="0.0"/></constraints>
+        <properties><font size="20" style="1"/><text value="JOHAN · Gestión de productos con ABB"/></properties>
+      </component>
+      <component id="abbCodeLabel" class="javax.swing.JLabel" binding="codeLabel">
+        <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Código"/></properties>
+      </component>
+      <component id="abbNameLabel" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints><grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Nombre del producto"/></properties>
+      </component>
+      <component id="abbPriceLabel" class="javax.swing.JLabel" binding="priceLabel">
+        <constraints><grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Precio"/></properties>
+      </component>
+      <component id="abbQuantityLabel" class="javax.swing.JLabel" binding="quantityLabel">
+        <constraints><grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Cantidad"/></properties>
+      </component>
+      <component id="abbCode" class="javax.swing.JTextField" binding="codeField">
+        <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="1" indent="0" use-parent-layout="false"/></constraints><properties/>
+      </component>
+      <component id="abbName" class="javax.swing.JTextField" binding="nameField">
+        <constraints><grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="1" indent="0" use-parent-layout="false"/></constraints><properties/>
+      </component>
+      <component id="abbPrice" class="javax.swing.JTextField" binding="priceField">
+        <constraints><grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="1" indent="0" use-parent-layout="false"/></constraints><properties/>
+      </component>
+      <component id="abbQuantity" class="javax.swing.JTextField" binding="quantityField">
+        <constraints><grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="1" indent="0" use-parent-layout="false"/></constraints><properties/>
+      </component>
+      <component id="abbInsert" class="javax.swing.JButton" binding="insertButton">
+        <constraints><grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Registrar"/></properties>
+      </component>
+      <component id="abbSearch" class="javax.swing.JButton" binding="searchButton">
+        <constraints><grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Buscar"/></properties>
+      </component>
+      <component id="abbDelete" class="javax.swing.JButton" binding="deleteButton">
+        <constraints><grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Eliminar"/></properties>
+      </component>
+      <component id="abbReset" class="javax.swing.JButton" binding="resetButton">
+        <constraints><grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Reiniciar árbol"/></properties>
+      </component>
+      <component id="abbInorder" class="javax.swing.JButton" binding="inorderButton">
+        <constraints><grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Inorden"/></properties>
+      </component>
+      <component id="abbPreorder" class="javax.swing.JButton" binding="preorderButton">
+        <constraints><grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Preorden"/></properties>
+      </component>
+      <component id="abbPostorder" class="javax.swing.JButton" binding="postorderButton">
+        <constraints><grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Postorden"/></properties>
+      </component>
+      <component id="abbExample" class="javax.swing.JButton" binding="exampleButton">
+        <constraints><grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints><properties><text value="Cargar ejemplo"/></properties>
+      </component>
+      <component id="abbCanvas" class="javax.swing.JPanel" binding="drawingPanel">
+        <constraints><grid row="5" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false" weightx="1.0" weighty="1.0"/></constraints><properties/>
+      </component>
+      <component id="abbResults" class="javax.swing.JTextArea" binding="resultArea">
+        <constraints><grid row="6" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false" weightx="1.0" weighty="0.3"/></constraints><properties><text value="Los recorridos y resultados aparecerán aquí."/></properties>
+      </component>
+    </children>
+  </grid>
+</form>
